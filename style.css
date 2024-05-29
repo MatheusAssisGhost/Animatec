@@ -64,13 +64,26 @@ body {
 
 .main_title {
     color: white;
-    font-size: 3em;
+    font-size: 4em;
     text-align: center;
     margin: 20px;
     text-shadow: 2px 2px 2px black;
     font-family: "Nanum Myeongjo", serif;
     font-weight: 400;
     font-style: normal;
+    animation-name: slide_title;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+
+@keyframes slide_title {
+    from{
+        transform: translateX(500px);
+    }
+
+    to{
+        transform: translateX(0px);
+    }
 }
 
 .sub_main_title {
@@ -106,6 +119,19 @@ body {
     border-radius: 20px;
     margin: 10px;
     box-shadow: 1px 1px 3px white;
+    animation-name: slide_title;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+
+@keyframes slide_title {
+    from{
+        transform: translateX(500px);
+    }
+
+    to{
+        transform: translateX(0px);
+    }
 }
 
 .section_text {
@@ -236,5 +262,6 @@ body {
         flex-direction: column;
     }
 
+    
     
 }
