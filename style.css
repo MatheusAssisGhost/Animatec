@@ -22,6 +22,7 @@ body {
 
 .contato:hover {
     transform: scale(120%);
+    transition: 0.3s;
 }
 
 .div_cabecalho {
@@ -104,7 +105,6 @@ body {
 .container {
     margin-top: 40px;
     background-color: #65966b57;
-    clear: both;
     display: flex;
     justify-content: space-around;
     align-items: center;
