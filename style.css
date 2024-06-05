@@ -20,6 +20,17 @@ body {
     border-radius: 50%;
 }
 
+.doe{
+    position: fixed;
+    right: 17px;
+    bottom: 70px;
+    width: 50px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+}
+
 .contato:hover {
     transform: scale(120%);
     transition: 0.3s;
@@ -182,12 +193,20 @@ body {
 
 .div_footer {
     background-color: black;
-    height: 250px;
+    height: 300px;
+    margin-bottom: 0px;
 }
 
 .box_footer {
     display: flex;
     justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+
+}
+.cards_footer{
+    display: flex;
+    flex-direction: row;
 }
 
 .div_card_footer {
@@ -222,14 +241,33 @@ body {
 
 }
 
-@media (max-width:768px) {
+.div_icons{
+
+}
+
+.icons{
+    width: 30px;
+}
+
+@media (max-width:600px) {
 
 
     .div_cabecalho{
-        width: 100%;
+        padding: 0px;
         display: flex;
         justify-content: space-between;
-        font-size: 1em;
+        gap: 10px;
+        width: 100%;
+        font-size: 0.8em;
+    }
+
+    .div_nav{
+        width: 100%;
+        margin: 5px;
+    }
+
+    .contato{
+        position: fixed;
     }
 
     .box_header{
@@ -250,17 +288,38 @@ body {
     .container{
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section_text{
+        width: 95%;
     }
 
     #ID3D{
-        width: 300px;
+        width: 95%;
     }
 
     .section_text2{
         display: flex;
         flex-direction: column;
+        justify-content: center;
     }
 
-    
+    .image_section{
+        width: 90%;
+        margin: auto;
+    }
+
+    .div_footer{
+        height: 100%;
+    }
+
+    .cards_footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
     
 }
