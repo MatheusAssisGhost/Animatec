@@ -8,7 +8,7 @@
 }
 
 body {
-    background-color: #334135;
+    background-image: linear-gradient(to left bottom, #65966B, #65966b57, white);
 
 }
 
@@ -20,7 +20,7 @@ body {
     border-radius: 50%;
 }
 
-.doe{
+.doe {
     position: fixed;
     right: 17px;
     bottom: 70px;
@@ -38,6 +38,7 @@ body {
 
 .div_cabecalho {
     background-color: #65966B;
+    width: 100%;
     color: white;
     text-align: center;
     font-size: 1.3em;
@@ -89,11 +90,11 @@ body {
 }
 
 @keyframes slide_title {
-    from{
+    from {
         transform: translateX(500px);
     }
 
-    to{
+    to {
         transform: translateX(0px);
     }
 }
@@ -106,6 +107,10 @@ body {
     font-family: "Cormorant Garamond", serif;
     font-weight: 300;
     font-style: normal;
+    animation-name: slide_title;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    text-shadow: 1px 1px 1px black;
 }
 
 .divisor {
@@ -136,19 +141,19 @@ body {
 }
 
 @keyframes slide_title {
-    from{
+    from {
         transform: translateX(500px);
     }
 
-    to{
+    to {
         transform: translateX(0px);
     }
 }
 
 .section_text {
     background-color: #50eb656f;
-    width: 400px;
-    height: 300px;
+    width: 50%;
+    height: 400px;
     border-radius: 20px;
     margin: 20px;
     border: 3px inset white;
@@ -163,12 +168,19 @@ body {
     font-size: 2em;
 }
 
-.content_text{
+.content_text {
     color: white;
     text-shadow: 1px 1px 2px black;
+    font-size: 1.5rem;
 }
 
-.section_text2{
+.content_text2 {
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    font-size: 2em;
+}
+
+.section_text2 {
     background-color: #50eb656f;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -176,7 +188,7 @@ body {
     margin: 20px;
     border: 3px inset white;
     padding: 20px;
-    
+
 }
 
 .container_card {
@@ -186,7 +198,7 @@ body {
     flex-direction: column;
 }
 
-.image_section{
+.image_section {
     width: 400px;
     border-radius: 20px;
 }
@@ -204,7 +216,8 @@ body {
     align-items: center;
 
 }
-.cards_footer{
+
+.cards_footer {
     display: flex;
     flex-direction: row;
 }
@@ -219,7 +232,7 @@ body {
     border-radius: 20px;
     padding: 10px;
     box-shadow: 2px 2px 2px black;
-    
+
 }
 
 .box_nav {
@@ -241,18 +254,16 @@ body {
 
 }
 
-.div_icons{
+.div_icons {}
 
-}
-
-.icons{
+.icons {
     width: 30px;
 }
 
 @media (max-width:600px) {
 
 
-    .div_cabecalho{
+    .div_cabecalho {
         padding: 0px;
         display: flex;
         justify-content: space-between;
@@ -261,65 +272,79 @@ body {
         font-size: 0.8em;
     }
 
-    .div_nav{
+    .div_nav {
         width: 100%;
         margin: 5px;
     }
 
-    .contato{
+    .contato {
         position: fixed;
     }
 
-    .box_header{
+    .box_header {
+        width: 100%;
         display: flex;
         justify-content: space-between;
         padding: 10px;
         margin-left: 5px;
     }
 
-    .logo_header{
+    .logo_header {
         margin-right: 10px;
+        display: none;
     }
 
-    .div_nav{
+    .div_nav {
         gap: 20px;
     }
 
-    .container{
+    .container {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
 
-    .section_text{
+    .section_text {
+        width: 95%;
+        height: 100%;
+    }
+
+    .content_text {
+        font-size: 1.1em;
+        display: block;
+        overflow: auto;
+    }
+
+    .content_text2 {
+        font-size: 1.5rem;
+    }
+
+    #ID3D {
         width: 95%;
     }
 
-    #ID3D{
-        width: 95%;
-    }
-
-    .section_text2{
+    .section_text2 {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        height: 100%;
     }
 
-    .image_section{
+    .image_section {
         width: 90%;
         margin: auto;
     }
 
-    .div_footer{
+    .div_footer {
         height: 100%;
     }
 
-    .cards_footer{
+    .cards_footer {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-    
+
 }
