@@ -146,7 +146,7 @@ body {
     }
 }
 
-.carousel-inner{
+.carousel-inner {
     width: 80% !important;
     height: 500px;
     margin: auto !important;
@@ -157,11 +157,11 @@ body {
     border-radius: 20px;
 }
 
-.carousel-control-prev{
+.carousel-control-prev {
     width: 30% !important;
 }
 
-.carousel-control-next{
+.carousel-control-next {
     width: 30% !important;
 }
 
@@ -262,4 +262,78 @@ body {
 
 .icons {
     width: 30px;
+}
+
+@media (max-width:600px) {
+
+
+    .div_cabecalho {
+        padding: 0px;
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        width: 100%;
+        font-size: 0.8em;
+    }
+
+    .div_nav {
+        width: 100%;
+        margin: 5px;
+    }
+
+    .contato {
+        position: fixed;
+    }
+
+    .main_title {
+        font-size: 4em;
+    }
+
+    .sub_main_title {
+        font-size: 2em;
+    }
+
+    .section_title {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box_header {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        margin-left: 5px;
+    }
+
+    .logo_header {
+        margin-right: 10px;
+        display: none;
+    }
+
+    .div_nav {
+        gap: 20px;
+    }
+
+    .carousel-inner {
+        height: 300px !important;
+    }
+
+    .d-block {
+        margin: auto !important;
+        transform: scaleX(200%);
+        height: 300px;
+    }
+
+    .div_footer {
+        height: 100%;
+    }
+
+    .cards_footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
 }
