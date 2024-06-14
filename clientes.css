@@ -293,6 +293,20 @@ body {
         font-size: 2em;
     }
 
+    .box_main{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .imagem_clientes{
+        margin-top: 10px;
+    }
+    .div_card{
+        width: 100%;
+        overflow: scroll;
+        padding: 20px;
+    }
+
     .section_title {
         display: flex;
         flex-direction: column;
