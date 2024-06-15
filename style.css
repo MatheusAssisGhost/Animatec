@@ -38,8 +38,9 @@ body {
 
 .container_title{
     background-image: url(imagens/bgdog.jpg);
-    background-size: 100%;
+    background-size: cover;
     background-position: 20%;
+    background-repeat: no-repeat;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -57,6 +58,18 @@ body {
     border: 1px inset white;
     position: fixed;
 }
+
+/* .menu_burguer_div{
+    display: none; 
+    cursor: pointer;
+}
+
+.menu_burguer{
+    width: 32px;
+    height: 2px;
+    background-color: white;
+    margin: 8px;
+} */
 
 .box_header {
     margin: auto 20px;
@@ -166,6 +179,9 @@ body {
     border: 1px inset white;
     box-shadow: 3px 3px 3px black;
     overflow: hidden;
+    animation: slide_title ease-in-out;
+    animation-timeline: view();
+    animation-range: cover 0% cover 50%;
 }
 
 #ID3D {
@@ -209,19 +225,22 @@ body {
 .content_text {
     height: 50%;
     color: black;
-    text-shadow: 1px 1px 2px white;
+    /* text-shadow: 1px 1px 2px white; */
     font-size: 1.8rem;
+    letter-spacing: 3px;
 }
 
 .content_text2 {
     color: black;
-    text-shadow: 1px 1px 2px white;
+    /* text-shadow: 1px 1px 2px white; */
     font-size: 2em;
+    letter-spacing: 3px;
 }
 
 .section_text2 {
     background-color: #50eb656f;
     display: grid;
+    height: 80vh;
     grid-template-columns: 1fr 1fr;
     border-radius: 20px;
     margin: 20px;
@@ -299,7 +318,11 @@ body {
     width: 30px;
 }
 
-@media (max-width:600px) {
+@media (max-width:999px) {
+
+    body{
+        overflow-x: hidden;
+    }
 
 
     .div_cabecalho {
@@ -310,6 +333,21 @@ body {
         width: 100%;
         font-size: 0.8em;
     }
+
+    /* .menu_burguer_div{
+        display: block;
+        position: absolute;
+        top: 0vh;
+        right: 0;
+        width: 50vw;
+        height: 92vh;
+        background-color: #23232e;
+        transform: translateX(100%);
+    }
+
+    .menu_burguer_div.active{
+        transform: translateX(0%);
+    } */
 
     .div_nav {
         width: 100%;
@@ -342,8 +380,9 @@ body {
     }
 
     .container_title{
-        background-size: auto;
+        background-size: cover;
         background-repeat: no-repeat;
+        background-position-x: 50% ;
     }
 
     .container {
