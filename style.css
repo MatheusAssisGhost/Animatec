@@ -341,6 +341,11 @@ body {
         gap: 20px;
     }
 
+    .container_title{
+        background-size: auto;
+        background-repeat: no-repeat;
+    }
+
     .container {
         display: flex;
         flex-direction: column;
