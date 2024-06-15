@@ -4,7 +4,7 @@ window.alert(`Olá ${saudacao}, bem-vindo à Animatec!`)
 
 
 var outroElemento = document.querySelector(".main_title"); 
-outroElemento.textContent = (`Olá, ${saudacao}! bem-vindo à Animatec`);
+outroElemento.textContent = (`Olá, ${saudacao}! Bem-vindo a Animatec`);
 Element.appendChild(text)
 
-// (`Olá, ${saudacao}! bem vindo à Animatec`)
+

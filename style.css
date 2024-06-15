@@ -36,6 +36,14 @@ body {
     transition: 0.3s;
 }
 
+.container_title{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .div_cabecalho {
     background-color: #65966B;
     width: 100%;
@@ -113,6 +121,23 @@ body {
     text-shadow: 1px 1px 1px black;
 }
 
+.gif {
+    width: 120px;
+    animation-name: slide_title2;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+}
+
+@keyframes slide_title2 {
+    from {
+        transform: translateX(-500px);
+    }
+
+    to {
+        transform: translateX(0px);
+    }
+}
+
 .divisor {
     width: 200px;
     margin: 20px auto;
@@ -128,6 +153,7 @@ body {
     margin: 20px;
     border: 1px inset white;
     box-shadow: 3px 3px 3px black;
+    overflow: hidden;
 }
 
 #ID3D {
