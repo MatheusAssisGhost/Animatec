@@ -9,6 +9,7 @@
 
 body {
     background-image: linear-gradient(to left bottom, #65966B, #65966b57, white);
+    overflow-x: hidden;
 
 }
 
@@ -59,17 +60,6 @@ body {
     position: fixed;
 }
 
-/* .menu_burguer_div{
-    display: none; 
-    cursor: pointer;
-}
-
-.menu_burguer{
-    width: 32px;
-    height: 2px;
-    background-color: white;
-    margin: 8px;
-} */
 
 .box_header {
     margin: auto 20px;
@@ -169,8 +159,8 @@ body {
 
 .container {
     margin-top: 40px;
-    background-color: #65966b57;
-    height: 80vh;
+    background-color: #65966baf;
+    height: auto;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -179,9 +169,11 @@ body {
     border: 1px inset white;
     box-shadow: 3px 3px 3px black;
     overflow: hidden;
-    animation: slide_title ease-in-out;
-    animation-timeline: view();
-    animation-range: cover 0% cover 50%;
+}
+
+.box_section{
+    height: 500px;
+    overflow: hidden;
 }
 
 #ID3D {
@@ -390,6 +382,7 @@ body {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        height: auto;
     }
 
     .section_text {
