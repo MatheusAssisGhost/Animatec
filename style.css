@@ -529,6 +529,10 @@ body {
         height: auto;
     }
 
+    .slide_card{
+        width: 100%;
+    }
+
     .section_text {
         width: 95%;
         height: 100%;
@@ -577,9 +581,6 @@ body {
         width: 100%;
     }
 
-    .section_text4{
-        flex-wrap: wrap;
-    }
 
     .image_section {
         width: 100%;
