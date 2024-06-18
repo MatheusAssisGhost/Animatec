@@ -329,7 +329,7 @@ body {
 
 .sustentavel_icon {
     width: 300px;
-    margin: auto;
+    margin: 30px auto 30px auto;
 }
 
 .ods {
@@ -343,6 +343,8 @@ body {
     width: 130px;
     border-radius: 10px;
 }
+
+
 
 .slide_card {
     display: flex;
@@ -575,14 +577,19 @@ body {
         width: 100%;
     }
 
-    .slide_card {
-        width: 100%;
-        border-radius: 20px;
+    .section_text4{
+        flex-wrap: wrap;
     }
 
     .image_section {
         width: 100%;
     }
+
+    .ods {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
 
     .div_footer {
         height: 100%;
