@@ -30,7 +30,7 @@ body {
     align-items: center;
 }
 
-.back_top{
+.back_top {
     background-color: #65966b00;
     position: fixed;
     bottom: 15px;
@@ -250,13 +250,13 @@ body {
 .content_text3 {
     margin-top: 50px;
     font-size: 1.5em;
-    width: 80%;
+    width: 100%;
     letter-spacing: 2px;
     line-height: 1.5em;
     margin-bottom: 15px;
 }
 
-.objetivos{
+.objetivos {
     background-color: #50eb652c;
     display: flex;
     justify-content: space-between;
@@ -265,24 +265,24 @@ body {
     gap: 30px;
 }
 
-.depoimento{
+.depoimento {
     letter-spacing: 2px;
     margin-bottom: 15px;
 }
 
-.chamada{
+.chamada {
     font-size: 1em;
     margin-bottom: 15px;
 }
 
-.btn{
+.btn {
     background-color: #65966b;
     border-radius: 15px;
     padding: 5px;
     cursor: pointer;
 }
 
-.div_sede{
+.div_sede {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -419,8 +419,6 @@ body {
 
 }
 
-.div_icons {}
-
 .icons {
     width: 30px;
 }
@@ -516,21 +514,26 @@ body {
         height: 100%;
     }
 
-    .section_text3{
+    .section_text3 {
         display: flex;
         flex-direction: column;
         width: 100%;
     }
 
-    
 
-    .content_text3{
+
+    .content_text3 {
         font-size: 1.3em;
         line-height: 1.3em;
         margin-bottom: 30px;
     }
 
-    .image_sede{
+    .objetivos{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .image_sede {
         width: 100%;
     }
 
