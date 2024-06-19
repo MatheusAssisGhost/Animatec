@@ -14,7 +14,7 @@ body {
 }
 
 .contato {
-    background-color: rgba(255, 255, 255, 0.637);
+    background-color: rgba(255, 255, 255, 0.39);
     position: fixed;
     right: 15px;
     bottom: 20px;
@@ -488,10 +488,19 @@ body {
 
     .contato {
         position: fixed;
+        width: 80px;
+        font-size: 0.8em;
+        height: 80px;
+    }
+
+    .back_top{
+        font-size: 0.7em;
+        width: 90px;
+        height: 20px;
     }
 
     .main_title {
-        font-size: 5em;
+        font-size: 4.5em;
     }
 
     .sub_main_title {
