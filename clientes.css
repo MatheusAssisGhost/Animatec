@@ -51,8 +51,6 @@ body {
     transform: scale(115%);
 }
 
-
-
 .contato:hover {
     transform: scale(110%);
     transition: ease-in-out;
@@ -140,7 +138,7 @@ body {
 
 .divisor {
     width: 200px;
-    margin: auto;
+    margin: 20px auto;
 }
 
 .section_title {
@@ -252,11 +250,16 @@ body {
     transition: 300ms ease-in;
 }
 
+.avatar{
+    width: 30px;
+    border-radius: 50%;
+}
+
 .div_footer {
-    background-color: black;
+    background-color: white;
     height: 300px;
     margin-bottom: 0px;
-    margin-top: 50px;
+
 }
 
 .box_footer {
@@ -277,12 +280,11 @@ body {
     flex-direction: column;
     background-color: #65966b8a;
     width: 200px;
-    height: 200px;
+    height: 150px;
     margin: 20px;
     border-radius: 20px;
     padding: 10px;
     box-shadow: 2px 2px 2px black;
-
 }
 
 .box_nav {
@@ -292,19 +294,16 @@ body {
 }
 
 .title_footer {
-    color: white;
+    color: black;
     text-align: center;
-    text-shadow: 1px 1px 2px black;
+    /* text-shadow: 1px 1px 2px black; */
 
 }
 
 .menu_footer {
     text-decoration: none;
-    color: white;
-
+    color: black;
 }
-
-.div_icons {}
 
 .icons {
     width: 30px;
