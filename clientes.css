@@ -269,7 +269,16 @@ body {
     margin: 10px;
 }
 
-.logo_footer{
+.div_footer {
+    background-color: white;
+    height: auto;
+    width: 100%;
+    margin-bottom: 0px;
+    bottom: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.logo_footer {
     width: 50px;
     margin: 20px;
 }
@@ -364,11 +373,9 @@ body {
 
     .div_card {
         width: 100%;
-        overflow: scroll;
-        overflow-x: auto;
         padding: 20px;
     }
-
+/* 
     .div_card::-webkit-scrollbar {
         border-radius: 20px;
         background-color: white;
@@ -386,7 +393,7 @@ body {
         background-color: #1b4520;
         width: 2px;
         border-radius: 20px;
-    }
+    } */
 
     .section_title {
         display: flex;
@@ -429,6 +436,12 @@ body {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+
+    .box_nav{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
     }
 
 }
