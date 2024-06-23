@@ -151,7 +151,7 @@ body {
     box-shadow: 0px 2px 6px black;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 300;
-    font-style: normal; 
+    font-style: normal;
     animation-name: slide_title;
     animation-duration: 2s;
     animation-iteration-count: 1;
@@ -579,6 +579,12 @@ body {
     .section_text {
         width: 95%;
         height: 100%;
+        margin-bottom: 50px;
+    }
+
+    .spline {
+        width: 500px !important;
+        height: 800px !important;
     }
 
     .content_text {
@@ -592,15 +598,13 @@ body {
         text-align: center;
     }
 
-    #ID3D {
-        height: 100vh;
-    }
 
     .section_text2 {
         display: flex;
         flex-direction: column;
         justify-content: center;
         height: 100%;
+        margin-top: 100px;
     }
 
     .section_text3 {
