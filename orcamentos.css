@@ -9,6 +9,7 @@
 
 body {
     background-image: linear-gradient(to left bottom, #65966B, #65966b57, white);
+    overflow-x: hidden;
 
 }
 
