@@ -32,6 +32,7 @@ body {
 }
 
 .back_top {
+    display: none;
     background-color: #65966b96;
     position: fixed;
     bottom: 15px;

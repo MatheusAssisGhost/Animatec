@@ -1,11 +1,11 @@
-window.onscroll = function() {scrollfunction()};
+window.onscroll = function() {scrollFunction()};
     
 function scrollFunction() {
-    const buttonTop = document.getElementById('BackTop');
-    if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
-        buttonTop.style.display = "block";
+    const BackTop = document.getElementById("BackTop");
+    if (document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000) {
+        BackTop.style.display = "block";
     } else {
-        buttonTop.style.display = "none";
+        BackTop.style.display = "none";
         
     }
 }

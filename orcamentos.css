@@ -8,7 +8,7 @@
 }
 
 body {
-    background-image: linear-gradient(to left bottom, #65966B, #65966b57, white);
+    /* background-image: linear-gradient(to left bottom, #65966B, #65966b57, white); */
     overflow-x: hidden;
 
 }
@@ -32,6 +32,7 @@ body {
 }
 
 .back_top {
+    display: none;
     background-color: #65966b96;
     position: fixed;
     bottom: 15px;
@@ -98,10 +99,10 @@ body {
 
 
 .main_title {
-    color: white;
+    color: black;
     font-size: 5em;
     text-align: center;
-    text-shadow: 2px 2px 2px black;
+    /* text-shadow: 2px 2px 2px black; */
     font-family: "Nanum Myeongjo", serif;
     font-weight: 400;
     font-style: normal;
@@ -131,13 +132,51 @@ body {
     animation-name: slide_title;
     animation-duration: 2s;
     animation-iteration-count: 1;
-    text-shadow: 1px 1px 1px black;
+    /* text-shadow: 1px 1px 1px black; */
 }
 
 .divisor {
     width: 200px;
     margin: 20px auto;
 }
+
+.container2 {
+    margin-top: 40px;
+    background-color: #50eb6534;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+}
+
+.box_section {
+    height: 500px;
+    overflow: hidden;
+}
+
+.section_text {
+    width: 50%;
+    height: 100%;
+    border-radius: 20px;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.title_content {
+    text-align: center;
+    margin: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 2em;
+}
+
+.content_text {
+    height: 50%;
+    color: black;
+    font-size: 1.5rem;
+    letter-spacing: 3px;
+}
+
 
 .section_title {
     display: flex;
@@ -182,7 +221,7 @@ body {
     transform: scale(110%);
 }
 
-.title_content {
+.title_content2 {
     font-size: 2em;
     text-align: center;
     margin: 50px;
@@ -306,6 +345,31 @@ body {
 
     .sub_main_title {
         font-size: 2em;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+    }
+
+    .section_text {
+        width: 95%;
+        height: 100%;
+        margin-bottom: 50px;
+    }
+
+    .spline {
+        width: 500px !important;
+        height: 800px !important;
+    }
+
+    .content_text {
+        font-size: 1.3em;
+        display: block;
+        overflow: auto;
     }
 
     .section_text5 {
