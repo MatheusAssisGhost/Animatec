@@ -198,11 +198,18 @@ body {
     }
 }
 
+.title_content {
+    text-align: center;
+    margin: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 2.2em;
+}
+
 
 .content_text2 {
     color: black;
     /* text-shadow: 1px 1px 2px white; */
-    font-size: 2em;
+    font-size: 1.8em;
     letter-spacing: 3px;
     text-align: center;
 }
@@ -519,8 +526,6 @@ body {
         background-position-x: 20%;
     }
 
-    
-
     .slide_card {
         width: 100%;
     }
@@ -530,6 +535,7 @@ body {
         display: block;
         overflow: auto;
     }
+
 
     .content_text2 {
         font-size: 1.3rem;

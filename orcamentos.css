@@ -347,7 +347,7 @@ body {
         font-size: 2em;
     }
 
-    .container {
+    .container2 {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -367,7 +367,7 @@ body {
     }
 
     .content_text {
-        font-size: 1.3em;
+        font-size: 0.8em;
         display: block;
         overflow: auto;
     }
