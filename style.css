@@ -1,5 +1,5 @@
 @charset 'utf-8';
-@import url('https://fonts.googleapis.com/css2?family=Abel&family=Amatic+SC:wght@400;700&family=Cinzel:wght@400..900&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Courgette&family=Dancing+Script:wght@400..700&family=Edu+TAS+Beginner:wght@400..700&family=Great+Vibes&family=Gruppo&family=Khand:wght@300;400;500;600;700&family=Major+Mono+Display&family=Nanum+Myeongjo&family=Poiret+One&family=Rajdhani:wght@300;400;500;600;700&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Merienda:wght@300..900&display=swap');
 
 * {
     margin: 0px;
@@ -60,7 +60,7 @@ body {
 }
 
 .div_cabecalho {
-    background-color: #65966b;
+    background-color: #014419;
     width: 100%;
     color: white;
     text-align: center;
@@ -69,6 +69,7 @@ body {
     border: 1px inset white;
     position: fixed;
     z-index: 10;
+    padding-right: 3%;
 }
 
 .box_header {
@@ -96,13 +97,14 @@ body {
     text-decoration: none;
     height: 30px;
     text-align: center;
+    font-size: 0.7em;
 }
 
 .container_title {
     background-image: url(imagens/bgs/beautiful-pet-portrait-small-dog-cat.png);
-    background-size: 100%;
+    background-size: 60%;
     background-repeat: no-repeat;
-    background-position: 100%;
+    background-position: auto;
     background-position-y: 30%;
     height: 100vh;
     display: flex;
@@ -114,21 +116,22 @@ body {
 
 .div_main {
     padding-top: 3rem;
+    padding-right: 3%;
 }
+
 
 .main_title {
     border-radius: 20px;
     color: black;
-    font-size: 5em;
+    font-size: 6em;
     text-align: right;
-    margin: 20px 50px 50px auto;
-    text-shadow: 3px 3px 5px black;
-    font-family: "Nanum Myeongjo", serif;
-    font-weight: 400;
+    font-family: "Merienda", cursive;
+    font-optical-sizing: auto;
     font-style: normal;
     animation-name: slide_title;
     animation-duration: 2s;
     animation-iteration-count: 1;
+    margin-left: 50vw;
 }
 
 @keyframes slide_title {
@@ -142,14 +145,11 @@ body {
 }
 
 .sub_main_title {
-    background-image: linear-gradient(to bottom, #65966B, #65966bcb, rgba(255, 255, 255, 0.562));
     border-radius: 20px;
     padding: 20px;
     color: black;
     font-size: 2em;
     text-align: center;
-    margin: 20px 50px 30px auto;
-    box-shadow: 0px 2px 6px black;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 300;
     font-style: normal;
@@ -157,6 +157,8 @@ body {
     animation-duration: 2s;
     animation-iteration-count: 1;
     text-shadow: 1px 1px 1px white;
+    margin-left: 50vw;
+
 }
 
 .logo_page {
@@ -202,27 +204,49 @@ body {
     text-align: center;
     margin: 10px;
     color: rgb(0, 0, 0);
-    font-size: 2.2em;
+    font-size: 1.6em;
+}
+
+.section_text2 {
+    background-color: #50eb652c;
+    display: grid;
+    height: 100%;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+}
+
+span {
+    color: #F24405;
+    font-size: 1.9em;
 }
 
 
 .content_text2 {
     color: black;
-    /* text-shadow: 1px 1px 2px white; */
-    font-size: 1.8em;
+    font-size: 1.5em;
     letter-spacing: 3px;
     text-align: center;
+    line-height: 1.5em;
 }
 
 .section_text3 {
-    background-color: #50eb652c;
+    background-color: white;
     display: flex;
     justify-content: space-between;
-    padding: 20px;
-    margin-top: 100px;
+    padding-right: 5%;
+    padding-left: 5%;
+    margin-top: 3%;
+
+}
+
+.title_content3 {
+    font-size: 2em;
+    text-align: center;
+    color: #035921;
 }
 
 .content_text3 {
+    background-color: white;
     margin-top: 50px;
     font-size: 1.5em;
     width: 100%;
@@ -232,12 +256,33 @@ body {
 }
 
 .objetivos {
-    background-color: #50eb652c;
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
     align-items: center;
-    padding: 20px;
+    padding: 5%;
     gap: 30px;
+}
+
+.card_mvv {
+    border-radius: 20px;
+    text-align: center;
+}
+
+
+.title_content2 {
+    text-align: center;
+    font-size: 8em;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #014419;
+}
+
+li {
+    text-decoration: none;
+    list-style-type: none;
+    line-height: 2em;
+    font-size: 1.5em;
 }
 
 .depoimento {
@@ -268,15 +313,6 @@ body {
     border-radius: 20px;
 }
 
-.section_text2 {
-    background-color: #50eb652c;
-    display: grid;
-    height: 100%;
-    grid-template-columns: 1fr 1fr;
-    padding: 20px;
-    box-shadow: 0px 2px 10px black;
-    margin-bottom: 100px;
-}
 
 .container_card2 {
     display: flex;
@@ -285,22 +321,32 @@ body {
 }
 
 .section_text4 {
-    background-color: #50eb652c;
     display: flex;
     justify-content: space-between;
-    flex-direction: column;
+    /* flex-direction: column; */
     margin-bottom: 20px;
     padding: 20px;
+    margin: 5%;
+}
+
+.title_content4 {
+    font-size: 4em;
+    text-align: center;
+    margin: 30px;
+    letter-spacing: 0.2em;
+    color: #F24405;
 }
 
 .sustentavel_icon {
-    width: 300px;
-    margin: 30px auto 30px auto;
+    width: 500px;
+    border-radius: 50%;
+    margin: auto;
 }
 
 .ods {
     display: flex;
     justify-content: space-around;
+    margin: 5%;
 }
 
 .ods_img {
@@ -392,6 +438,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-right: 2%;
 }
 
 .image_section {
@@ -520,11 +567,6 @@ body {
         gap: 20px;
     }
 
-    .container_title {
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position-x: 20%;
-    }
 
     .slide_card {
         width: 100%;
