@@ -228,6 +228,7 @@ span {
     letter-spacing: 3px;
     text-align: center;
     line-height: 1.5em;
+    margin: 20px;
 }
 
 .section_text3 {
@@ -514,14 +515,13 @@ li {
         padding: 0px;
         display: flex;
         justify-content: space-between;
-        gap: 10px;
+        /* gap: 9px; */
         width: 100%;
         font-size: 0.8em;
     }
 
     .div_nav {
         width: 100%;
-        margin: 5px;
     }
 
     .contato {
@@ -529,6 +529,7 @@ li {
         width: 80px;
         font-size: 0.8em;
         height: 80px;
+        margin-right: 20px;
     }
 
     .back_top {
@@ -537,18 +538,26 @@ li {
         height: 20px;
     }
 
+    .container_title {
+        background-image: url(imagens/bgs/english-cream-golden-retriever-isolated.png);
+        background-size: 100%;
+        background-position-y: top;
+        /* background-position-x: 15vw; */
+        height: auto;
+    }
+
     .main_title {
         font-size: 3.8em;
         width: 100%;
         text-align: center;
-        margin: 80px 80px 10px auto;
-        color: white;
+        margin: 60% 80px 10px auto;
     }
 
     .sub_main_title {
-        font-size: 2em;
+        font-size: 1.8em;
         text-align: center;
-        margin: 20px 80px 20px;
+        margin: auto;
+        color: #F24405;
     }
 
     .box_header {
@@ -560,17 +569,15 @@ li {
     }
 
     .logo_header {
-        margin-right: 10px;
         display: none;
     }
 
-    .div_nav {
-        gap: 20px;
-    }
-
-
     .slide_card {
         width: 100%;
+    }
+
+    span{
+        font-size: 1.5em;
     }
 
     .content_text {
@@ -587,16 +594,26 @@ li {
 
 
     .section_text2 {
+        width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         height: 100%;
         margin-top: 100px;
+        text-align: center;
     }
 
     .section_text3 {
         display: flex;
         flex-direction: column;
+        width: 100%;
+    }
+
+    .div_sede{
+        width: 100%;
+    }
+
+    .image_sede {
         width: 100%;
     }
 
@@ -611,13 +628,25 @@ li {
         flex-direction: column;
     }
 
-    .image_sede {
+    .container_card3 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section_text4 {
+        display: flex;
+        flex-direction: column;
         width: 100%;
     }
 
+    .sustentavel_icon {
+        width: 90%;
+        border-radius: 0%;
+        border: 2px solid red;
+    }
 
-    .image_section {
-        width: 100%;
+    .title_content4 {
+        font-size: 2em;
     }
 
     .ods {
@@ -625,17 +654,9 @@ li {
         gap: 10px;
     }
 
-    .container_card3 {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .div_card_mvv {
-        width: 100%;
-    }
-
 
     .div_footer {
+        width: 100%;
         height: 100%;
     }
 
