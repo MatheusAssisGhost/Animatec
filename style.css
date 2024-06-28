@@ -131,7 +131,8 @@ body {
     animation-name: slide_title;
     animation-duration: 2s;
     animation-iteration-count: 1;
-    margin-left: 50vw;
+    margin-left: 60vw;
+    margin-top: -10%;
 }
 
 @keyframes slide_title {
