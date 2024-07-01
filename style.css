@@ -126,7 +126,6 @@ body {
     font-size: 6em;
     text-align: right;
     font-family: "Merienda", cursive;
-    font-optical-sizing: auto;
     font-style: normal;
     animation-name: slide_title;
     animation-duration: 2s;
@@ -148,7 +147,7 @@ body {
 .sub_main_title {
     border-radius: 20px;
     padding: 20px;
-    color: black;
+    color:#014419;
     font-size: 2em;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
