@@ -102,7 +102,7 @@ body {
 
 .container_title {
     background-image: url(imagens/bgs/beautiful-pet-portrait-small-dog-cat.png);
-    background-size: 60%;
+    background-size: 65%;
     background-repeat: no-repeat;
     background-position: auto;
     background-position-y: 30%;
@@ -159,11 +159,6 @@ body {
     animation-iteration-count: 1;
     text-shadow: 1px 1px 1px white;
     margin-left: 50vw;
-
-}
-
-.logo_page {
-    margin: 20px 50px 80px auto;
 
 }
 
