@@ -100,13 +100,26 @@ body {
 }
 
 .div_main {
-    padding-top: 3rem;
+    background-image: url(imagens/bgs/young-french-bulldog-is-posing-cute-white-braun-doggy-pet-is-playing-running-looking-happy-isolated-white-background.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: 120%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    animation-name: slide_title;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
 }
 
 .main_title {
+    color: #014419;
     font-size: 5em;
     text-align: center;
     font-family: "Merienda", cursive;
+    font-optical-sizing: auto;
     font-style: normal;
     animation-name: slide_title;
     animation-duration: 2s;
@@ -115,7 +128,7 @@ body {
 
 @keyframes slide_title {
     from {
-        transform: translateX(200px);
+        transform: translateX(500px);
     }
 
     to {
@@ -134,6 +147,7 @@ body {
     animation-name: slide_title;
     animation-duration: 2s;
     animation-iteration-count: 1;
+    /* text-shadow: 1px 1px 1px black; */
 }
 
 .divisor {
@@ -142,12 +156,12 @@ body {
 }
 
 .gif {
-    top: 18vh;
-    width: 120px;
+    width: 50px;
     animation-name: slide_title2;
     animation-duration: 10s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
+    position: absolute;
 }
 
 @keyframes slide_title2 {

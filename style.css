@@ -115,14 +115,17 @@ body {
 
 .div_main {
     padding-top: 3rem;
-    padding-right: 3%;
+    overflow: hidden;
+    animation-name: slide_title;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
 }
 
 
 .main_title {
     margin-left: -30% ;
     border-radius: 20px;
-    color: black;
+    color: #014419;
     font-size: 6em;
     text-align: right;
     font-family: "Merienda", cursive;
@@ -158,19 +161,21 @@ body {
 }
 
 .gif {
-    width: 120px;
+    width: 50px;
     animation-name: slide_title2;
-    animation-duration: 3s;
-    animation-iteration-count: 1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    position: absolute;
 }
 
 @keyframes slide_title2 {
     from {
-        transform: translateX(-500px);
+        transform: translateX(100vw);
     }
 
     to {
-        transform: translateX(0px);
+        transform: translateX(-100vw);
     }
 }
 
@@ -277,22 +282,6 @@ li {
     font-size: 1.5em;
 }
 
-.depoimento {
-    letter-spacing: 2px;
-    margin-bottom: 15px;
-}
-
-.chamada {
-    font-size: 1em;
-    margin-bottom: 15px;
-}
-
-.btn {
-    background-color: #65966b76;
-    border-radius: 15px;
-    padding: 5px;
-    cursor: pointer;
-}
 
 .div_sede {
     display: flex;
@@ -378,13 +367,11 @@ li {
 
 .slide_card {
     display: flex;
-    width: 500px;
-    height: 500px;
+    width: 400px;
     overflow: hidden;
     margin: auto;
-    flex: auto;
-    position: static;
     z-index: 1;
+    border-radius: 20px;
 }
 
 @keyframes slide {
@@ -434,13 +421,14 @@ li {
 }
 
 .image_section {
-    width: 500px;
+    width: 400px;
     margin: auto;
     border-radius: 20px;
     animation-name: slide;
     animation-duration: 15s;
     animation-iteration-count: infinite;
 }
+
 
 .div_footer {
     background-color: white;
@@ -529,12 +517,15 @@ li {
     }
 
     .container_title {
-        background-image: url(imagens/bgs/english-cream-golden-retriever-isolated.png);
+        /* background-image: url(imagens/bgs/english-cream-golden-retriever-isolated.png); */
         background-size: 100%;
         background-position-y: top;
         /* background-position-x: 15vw; */
         height: auto;
-    }
+        animation-name: slide_title;
+        animation-duration: 2s;
+        animation-iteration-count: 1;
+        }
 
     .main_title {
         font-size: 3.8em;
@@ -555,15 +546,10 @@ li {
         display: flex;
         justify-content: space-between;
         padding: 10px;
-        margin-left: 5px;
     }
 
     .logo_header {
         display: none;
-    }
-
-    .slide_card {
-        width: 100%;
     }
 
     span{
@@ -591,6 +577,14 @@ li {
         height: 100%;
         margin-top: 100px;
         text-align: center;
+    }
+
+    .slide_card{
+        width: 100%;
+    }
+
+    .image_section{
+        width: 400px;
     }
 
     .section_text3 {
@@ -632,7 +626,6 @@ li {
     .sustentavel_icon {
         width: 90%;
         border-radius: 0%;
-        border: 2px solid red;
     }
 
     .title_content4 {
