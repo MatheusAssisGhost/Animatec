@@ -297,6 +297,12 @@ body {
         height: 20px;
     }
 
+
+    .div_main{
+        background-position: 120%;
+        background-position-y: 115% ;
+    }
+    
     .main_title {
         font-size: 4em;
         width: 100%;
