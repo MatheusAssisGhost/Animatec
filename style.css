@@ -14,15 +14,15 @@ body {
 }
 
 .contato {
-    background-color: rgba(255, 255, 255, 0.39);
+    background-color: rgba(255, 255, 255, 0.319);
     position: fixed;
     right: 15px;
     bottom: 20px;
-    width: 100px;
+    width: 80px;
     border-radius: 20px;
     text-decoration: none;
-    color: white;
-    text-shadow: 1px 1px 1px black;
+    color: black;
+    font-size: 0.8em;
     z-index: 9;
     display: flex;
     flex-direction: column;
@@ -70,6 +70,7 @@ body {
     position: fixed;
     z-index: 10;
     padding-right: 3%;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .box_header {
@@ -78,7 +79,6 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    text-shadow: 1px 1px 2px black;
 }
 
 .logo_header {
@@ -101,11 +101,10 @@ body {
 }
 
 .container_title {
-    background-image: url(imagens/bgs/beautiful-pet-portrait-small-dog-cat.png);
+    background-image: url(imagens/bgs/young-french-bulldog-is-posing-cute-white-braun-doggy-pet-is-playing-running-looking-happy-isolated-white-background.png);
     background-size: 65%;
     background-repeat: no-repeat;
-    background-position: auto;
-    background-position-y: 30%;
+    background-position: 150%;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -121,6 +120,7 @@ body {
 
 
 .main_title {
+    margin-left: -30% ;
     border-radius: 20px;
     color: black;
     font-size: 6em;
@@ -130,8 +130,6 @@ body {
     animation-name: slide_title;
     animation-duration: 2s;
     animation-iteration-count: 1;
-    margin-left: 60vw;
-    margin-top: -10%;
 }
 
 @keyframes slide_title {
@@ -145,20 +143,18 @@ body {
 }
 
 .sub_main_title {
+    margin-left: -30% ;
     border-radius: 20px;
     padding: 20px;
-    color:#014419;
+    color:#F24405;
     font-size: 2em;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
-    font-weight: 300;
+    font-weight: 600;
     font-style: normal;
     animation-name: slide_title;
     animation-duration: 2s;
     animation-iteration-count: 1;
-    text-shadow: 1px 1px 1px white;
-    margin-left: 50vw;
-
 }
 
 .gif {

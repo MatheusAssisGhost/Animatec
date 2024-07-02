@@ -19,9 +19,8 @@ body {
     width: 80px;
     border-radius: 20px;
     text-decoration: none;
-    color: white;
+    color: black;
     font-size: 0.8em;
-    text-shadow: 1px 1px 1px black;
     z-index: 9;
     display: flex;
     flex-direction: column;
@@ -68,6 +67,7 @@ body {
     /* position: fixed; */
     z-index: 10;
     padding-right: 3%;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .box_header {
@@ -104,8 +104,6 @@ body {
     align-items: center;
     justify-content: center;
     height: 50vh;
-    padding-top: 5%;
-    padding-right: 3%;
 }
 
 .main_title {
@@ -131,7 +129,7 @@ body {
 }
 
 .sub_main_title {
-    color: black;
+    color:#F24405;
     font-size: 3em;
     text-align: center;
     margin: 10px;
