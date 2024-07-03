@@ -277,9 +277,9 @@ body {
         font-size: 0.8em;
     }
 
-    /* .logo_header{
-        display: none;
-    } */
+    .logo_header {
+        width: 30px;
+    }
 
     .div_nav {
         width: 100%;
@@ -299,10 +299,9 @@ body {
         height: 20px;
     }
 
-
     .div_main{
         background-position: 120%;
-        background-position-y: 115% ;
+        background-position-y: 100% ;
     }
 
     .main_title {

@@ -356,7 +356,7 @@ body {
 
     .div_main{
         background-position: 120%;
-        background-position-y: 115% ;
+        background-position-y: 100% ;
     }
 
     .main_title {
@@ -394,10 +394,10 @@ body {
         margin-left: 5px;
     }
 
-    /* .logo_header {
-        margin-right: 10px;
-        display: none;
-    } */
+    .logo_header {
+        width: 30px;
+    }
+
 
     .div_nav {
         gap: 20px;

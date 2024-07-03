@@ -552,8 +552,9 @@ li {
     }
 
     .logo_header {
-        display: none;
+        width: 30px;
     }
+
 
     span{
         font-size: 1.5em;

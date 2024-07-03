@@ -137,7 +137,7 @@ body {
 }
 
 .sub_main_title {
-    color:#F24405;
+    color: #F24405;
     font-size: 3em;
     text-align: center;
     margin: 10px;
@@ -176,7 +176,7 @@ body {
     border-radius: 20px;
 }
 
-.proteses{
+.proteses {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -200,7 +200,7 @@ body {
     letter-spacing: 3px;
 }
 
-.div_list{
+.div_list {
     display: flex;
     justify-content: center;
     gap: 30px;
@@ -209,11 +209,11 @@ body {
     margin: 20px;
 }
 
-b{
+b {
     color: #F24405;
 }
 
-span{
+span {
     color: #F24405;
 }
 
@@ -285,7 +285,7 @@ span{
     padding: 15px;
 }
 
-.sede{
+.sede {
     width: 300px;
     border-radius: 20px;
     margin-bottom: 20px;
@@ -358,9 +358,9 @@ span{
         font-size: 0.8em;
     }
 
-    /* .logo_header{
-        display: none;
-    } */
+    .logo_header {
+        width: 30px;
+    }
 
     .div_nav {
         width: 100%;
@@ -380,9 +380,9 @@ span{
         height: 20px;
     }
 
-    .div_main{
+    .div_main {
         background-position: 120%;
-        background-position-y: 100% ;
+        background-position-y: 100%;
     }
 
     .main_title {
@@ -409,7 +409,7 @@ span{
         margin-bottom: 50px;
     }
 
-    .div_list{
+    .div_list {
         flex-direction: column;
         flex-wrap: wrap;
         justify-content: center;
@@ -434,13 +434,13 @@ span{
         height: auto;
     }
 
-    .container_card{
+    .container_card {
         display: flex;
         flex-direction: column;
         gap: 20px;
     }
 
-    .div_card{
+    .div_card {
         width: 100%;
     }
 
@@ -457,7 +457,7 @@ span{
         align-items: center;
     }
 
-    .box_nav{
+    .box_nav {
         display: flex;
         flex-direction: column;
         text-align: center;
